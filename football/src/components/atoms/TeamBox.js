@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function TeamBox(props) {
     return (
-        <div className='min-h-24 bg-black flex items-center rounded-xl'>
-            <div className='ml-4'>
-                <img src={props.imageUrl} alt='' />
+        <div className='bg-black flex items-center rounded-xl m p-3'>
+            <div className='ml-1-percent'>
+                <img src={props.imageUrl} alt='' className='w-9 lg:w-full md:w-14 sm:w-12' />
             </div>
-            <div className='text-white font-semibold text-lg ml-4'>{props.clubName}</div>
+            <div className='text-white font-semibold text-lg ml-5-percent'>{props.clubName}</div>
         </div>
     )
 }
