@@ -1,6 +1,8 @@
 import React from 'react'
 
 export default function UpGameBox() {
+
+
     return (
         <div className='text-white font-bold flex justify-between bg-purple-500 sm:text-xs md:text-lg lg:text-xl xl:text-2xl p-1.5'>
             <div className='ml-4'>

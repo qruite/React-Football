@@ -1,6 +1,7 @@
 #App {
   width: 100%;
-  height: 291.25rem;
+  /*height: 291.25rem;*/
+  padding: 10% 0;
   flex-shrink: 0;
 
   background: linear-gradient(180deg,
@@ -8,8 +9,6 @@
       #040079 30.63%,
       #6B00BE 61.54%,
       #AE70BE 100%);
-
-  padding-top: 800px;
 }
 
 #sectionTitle::after {

@@ -2,6 +2,7 @@ import './App.css';
 import CompetitionSection from './components/organisms/CompetitionSection';
 import PopularTeamsSection from './components/organisms/PopularTeamsSection';
 import UpGamesSection from './components/organisms/UpGamesSection';
+import RankingSection from './components/organisms/RankingSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <CompetitionSection />
         <PopularTeamsSection />
         <UpGamesSection />
+        <RankingSection />
       </div>
     </div>
   );

@@ -8,8 +8,8 @@ export default function UpGamesSection() {
     return (
         <div >
             <SectionTitel titelName="Upcoming Games" />
-            <div className='flex items-center justify-between'>
-                <div className='text-white text-xl xl:text-5xl font-bold mb-7'>Spieltag</div>
+            <div className='flex items-center justify-between mb-3'>
+                <div className='text-white text-xl xl:text-5xl lg:text-4xl font-bold'>Spieltag</div>
                 <Date />
             </div>
             <CompUpGameHeader imageUrl='https://placehold.co/45x45' compName='UEFA Champions League' />
