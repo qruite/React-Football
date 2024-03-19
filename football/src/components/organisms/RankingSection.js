@@ -1,10 +1,12 @@
 import React from 'react'
-import RankingTableHeader from '../atoms/RankingTableHeader'
+import RankingTable from '../molecules/RankingTable'
+import SectionTitel from '../atoms/SectionTitel'
 
 export default function RankingSection() {
     return (
         <div>
-            <RankingTableHeader />
+            <SectionTitel titelName="TOP SCORER" />
+            <RankingTable />
         </div>
     )
 }
