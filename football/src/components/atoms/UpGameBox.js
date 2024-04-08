@@ -1,25 +1,23 @@
 import React from 'react'
 
-export default function UpGameBox() {
+export default function UpGameBox({ matchDate, matchTime, team1, team2, scoreTeam1, scoreTeam2 }) {
 
 
     return (
-        <div className='text-white font-bold flex justify-between bg-purple-500 sm:text-xs md:text-lg lg:text-xl xl:text-2xl p-1.5'>
-            <div className='ml-4'>
-                <div className=''>22 September</div>
-                <div className='font-semibold text-xs lg:text-lg'>19:00 CEST</div>
+        <div className='text-white font-bold grid grid-cols-12 items-center bg-purple-500 sm:text-xs md:text-sm lg:text-base xl:text-xl p-1.5'>
+            <div className='ml-4 col-span-4 '>
+                <div className='text-sm'>{matchDate}</div>
+                <div className='font-semibold text-xs lg:text-sm'>{matchTime}</div>
             </div>
 
-            <div></div>
-
-            <div>
-                <div>FC Barcelona</div>
-                <div>Real Madrid</div>
+            <div className='col-span-7'>
+                <div>{team1}</div>
+                <div>{team2}</div>
             </div>
 
             <div className='mr-4'>
-                <div>1</div>
-                <div>2</div>
+                <div>{scoreTeam1}</div>
+                <div>{scoreTeam2}</div>
             </div>
         </div>
     )

@@ -13,6 +13,7 @@ export default function CompUpGameHeader({ imageUrl, compName, onClick }) {
         <div className='w-full bg-black flex justify-between rounded-2xl p-3 text-white text-xs font-semibold sm:text-base md:text-lg lg:text-xl mb-3' onClick={() => {
             setShowArrowUp(!showArrowUp)
             onClick();
+
         }}>
             <div className='flex items-center space-x-2'>
                 <div>
